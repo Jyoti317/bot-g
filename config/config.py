@@ -38,13 +38,15 @@ def getenv(key, default=None):
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "26685522"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("183c15c2ca7c2473069263cf876bd4d0")
 
 
 # Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("8040797558:AAGJtxijO43NigeKY_od85Yf6wD4twFWJvc
+
+")
 
 
 # Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
@@ -52,17 +54,17 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://jyotiabhi317:Stuti@256111@cl
 
 
 # You'll need a Group ID or USERNAME for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 1002635921804))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6815918609").split())
+    map(int, getenv("OWNER_ID", "7977931164").split())
 )  # Input type must be interger
 
 
 # You'll need a Pyrogram String Session for these vars. See config/README.md for more information.
 # Get the environment variable with a default value of an empty
-STRING_SESSIONS = parse_list(getenv("STRING_SESSIONS", ""))
+STRING_SESSIONS = parse_list(getenv("STRING_SESSIONS", "BQGXMFIAvix_XDHUEY30aCJwn3JoiTu0QOqQP8fW6iNMi0wrqrT2AsSmNSXlEd0egDzF_AqJknHbKY-tQJXoUzHODnC97GbIK1rN1tIPMyT1I99EsRj"))
 
 # Your cookies pasted link on batbin.me
 # you can skip if you are adding cookies
