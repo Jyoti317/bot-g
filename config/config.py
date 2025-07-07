@@ -48,7 +48,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 
 # Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://jyotiabhi317:Stuti@256111@cluster0.mgzjk6v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0)
 
 
 # You'll need a Group ID or USERNAME for this.
